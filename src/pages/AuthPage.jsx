@@ -85,16 +85,20 @@ export default function AuthPage() {
           >
             <i className="bi bi-google"></i> Sign up with Google
           </Button>
+        
           <Button className="rounded-pill" variant="outline-dark">
             <i className="bi bi-apple"></i> Sign up with Apple
           </Button>
+
           <Button className="rounded-pill" variant="outline-dark">
             <i className="bi bi-facebook"></i> Sign up with Facebook
           </Button>
+
           <p style={{ textAlign: 'center' }}>or</p>
           <Button className="rounded-pill" onClick={handleShowSignUp}>
             Create an account
           </Button>
+          
           <p style={{ fontSize: '12px' }}>
             By signing up, you agree to the Terms of Service and Privacy Policy,
             including Cookie Use.
